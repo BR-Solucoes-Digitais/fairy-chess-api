@@ -1,0 +1,25 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "fairy-chess-api"
+version = "2024.0.0"
+dependencies = [
+  "httpx==0.26.0",
+  "uvicorn==0.25.0",
+  "gunicorn==21.2.0",
+  "fastapi==0.109.0",
+  "SQLAlchemy==2.0.25",
+  "python-dotenv==1.0.0"
+]
+requires-python = ">=3.10"
+authors = [
+    {name = "Rodrigo Guimarães", email = "ratopythonista@gmail.com"}
+]
+maintainers = [
+    {name = "Rodrigo Guimarães", email = "ratopythonista@gmail.com"}
+]
+description = "API for Fairy Chess"
+readme = "README.md"
+license = {file = "LICENSE"}
